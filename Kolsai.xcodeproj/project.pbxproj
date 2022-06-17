@@ -17,9 +17,12 @@
 		615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */; };
 		615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */; };
 		615B4EF80BB4F85B1D0F4E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B4F1E1C900A14E46A3D87 /* Assets.xcassets */; };
+		7945222A3FDDFD78B2154948 /* Pods_Kolsai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E977ECD6CED4AC2E9A3BE0A /* Pods_Kolsai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E977ECD6CED4AC2E9A3BE0A /* Pods_Kolsai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kolsai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2367F0D589C12E2E7754E879 /* Pods-Kolsai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kolsai.debug.xcconfig"; path = "Target Support Files/Pods-Kolsai/Pods-Kolsai.debug.xcconfig"; sourceTree = "<group>"; };
 		615B406B53DC471C31920053 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		615B418B5BFA9E901035A958 /* QAChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAChatViewController.swift; sourceTree = "<group>"; };
 		615B43B17CFD42DECC983E3C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsAndStydiesViewController.swift; sourceTree = "<group>"; };
 		615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		615B4F1E1C900A14E46A3D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A98938015BB1D6C559A687 /* Pods-Kolsai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kolsai.release.xcconfig"; path = "Target Support Files/Pods-Kolsai/Pods-Kolsai.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7945222A3FDDFD78B2154948 /* Pods_Kolsai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,8 @@
 			children = (
 				615B4A5DA28AE60940422F66 /* Products */,
 				615B4FB3A0EBAB5C01E816BB /* Kolsai */,
+				A97D21772CE525E6642493F7 /* Pods */,
+				EFC7428CF82CA320D6D810A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +174,24 @@
 			path = Kolsai;
 			sourceTree = "<group>";
 		};
+		A97D21772CE525E6642493F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2367F0D589C12E2E7754E879 /* Pods-Kolsai.debug.xcconfig */,
+				D4A98938015BB1D6C559A687 /* Pods-Kolsai.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFC7428CF82CA320D6D810A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E977ECD6CED4AC2E9A3BE0A /* Pods_Kolsai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 615B42B4F4862D8D825C7EA1 /* Build configuration list for PBXNativeTarget "Kolsai" */;
 			buildPhases = (
+				2D14C321998CF5614DAD67F7 /* [CP] Check Pods Manifest.lock */,
 				615B48DA4D55DFE050570F45 /* Sources */,
 				615B42EB433C5F4E6D9F5E3B /* Frameworks */,
 				615B48A9AC0895C57D66C360 /* Resources */,
+				69157DCA9E224C0AC59E6F59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +252,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D14C321998CF5614DAD67F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kolsai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69157DCA9E224C0AC59E6F59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kolsai/Pods-Kolsai-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SWCardView/SWCardView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWCardView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kolsai/Pods-Kolsai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		615B48DA4D55DFE050570F45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,6 +329,7 @@
 /* Begin XCBuildConfiguration section */
 		615B434C98C9B40666A0E793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A98938015BB1D6C559A687 /* Pods-Kolsai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,6 +465,7 @@
 		};
 		615B4F81B45356D31EC46EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2367F0D589C12E2E7754E879 /* Pods-Kolsai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
