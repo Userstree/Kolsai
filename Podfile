@@ -7,6 +7,6 @@ target 'Kolsai' do
 
   # Pods for Kolsai
   pod 'SnapKit', '~> 5.0.0'
-  pod 'SWCardView'
+  pod 'Koloda'
 
 end

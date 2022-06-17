@@ -1,20 +1,24 @@
 PODS:
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
+  - pop (1.0.12)
   - SnapKit (5.0.1)
-  - SWCardView (0.1.1)
 
 DEPENDENCIES:
+  - Koloda
   - SnapKit (~> 5.0.0)
-  - SWCardView
 
 SPEC REPOS:
   trunk:
+    - Koloda
+    - pop
     - SnapKit
-    - SWCardView
 
 SPEC CHECKSUMS:
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SWCardView: 78ceeb3083393a1f96eec5aaa84a5f1093bb957a
 
-PODFILE CHECKSUM: c5f77e07688de1807e9067ef92a78f4d9b18e170
+PODFILE CHECKSUM: ea6713ab32ab293d126c2e3ec064a59dfe9dc0e8
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
