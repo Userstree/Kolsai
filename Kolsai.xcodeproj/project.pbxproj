@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F1B3B5285C7CAE0011594C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1B3B4285C7CAE0011594C /* TableViewCell.swift */; };
 		615B4055D56129D16F69C1C0 /* QAChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B418B5BFA9E901035A958 /* QAChatViewController.swift */; };
 		615B4294512A10B3F407FA76 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4A453760F3F69E7D3C64 /* FeedViewController.swift */; };
 		615B4314D6214273167E210B /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B486F80D376961E068B9A /* LikesViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39F1B3B4285C7CAE0011594C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		615B406B53DC471C31920053 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		615B418B5BFA9E901035A958 /* QAChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAChatViewController.swift; sourceTree = "<group>"; };
 		615B43B17CFD42DECC983E3C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				615B44B9BA52A5F7E000471D /* ProfileViewController.swift */,
+				39F1B3B4285C7CAE0011594C /* TableViewCell.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				615B44FA4E8D1544F91D4DFC /* MainTabBarVC.swift in Sources */,
 				615B4BD49FD88041833CDCDA /* AppDelegate.swift in Sources */,
 				615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */,
+				39F1B3B5285C7CAE0011594C /* TableViewCell.swift in Sources */,
 				615B4294512A10B3F407FA76 /* FeedViewController.swift in Sources */,
 				615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */,
 				615B4314D6214273167E210B /* LikesViewController.swift in Sources */,
