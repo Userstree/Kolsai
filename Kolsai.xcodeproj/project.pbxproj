@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615B44FA4E8D1544F91D4DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B406B53DC471C31920053 /* ViewController.swift */; };
+		615B4055D56129D16F69C1C0 /* QAChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B418B5BFA9E901035A958 /* QAChatViewController.swift */; };
+		615B4294512A10B3F407FA76 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4A453760F3F69E7D3C64 /* FeedViewController.swift */; };
+		615B4314D6214273167E210B /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B486F80D376961E068B9A /* LikesViewController.swift */; };
+		615B44FA4E8D1544F91D4DFC /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B406B53DC471C31920053 /* MainTabBarVC.swift */; };
 		615B47525D5D76206E99028B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615B4D0E54C883BEC742631C /* LaunchScreen.storyboard */; };
+		615B4934EB020480481A7F2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B44B9BA52A5F7E000471D /* ProfileViewController.swift */; };
 		615B4BD49FD88041833CDCDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B44860CD683FDD91F3517 /* AppDelegate.swift */; };
+		615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */; };
 		615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */; };
 		615B4EF80BB4F85B1D0F4E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B4F1E1C900A14E46A3D87 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		615B406B53DC471C31920053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		615B406B53DC471C31920053 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		615B418B5BFA9E901035A958 /* QAChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAChatViewController.swift; sourceTree = "<group>"; };
 		615B43B17CFD42DECC983E3C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		615B44860CD683FDD91F3517 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		615B44B9BA52A5F7E000471D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		615B46F00F8A0A6422F46CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615B486F80D376961E068B9A /* LikesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		615B4A453760F3F69E7D3C64 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		615B4B2C80FFB987924E44E5 /* Kolsai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolsai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsAndStydiesViewController.swift; sourceTree = "<group>"; };
 		615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		615B4F1E1C900A14E46A3D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,10 +54,23 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		615B41E6B8D2735FFDAD41A3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				615B4A453760F3F69E7D3C64 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		615B44E889D365033FCA9576 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				615B406B53DC471C31920053 /* ViewController.swift */,
+				615B406B53DC471C31920053 /* MainTabBarVC.swift */,
+				615B49F7BF60ECF556C0E560 /* Likes */,
+				615B4C454A67118C3BBFBD02 /* Jobs&Stydies */,
+				615B4BC5A6EE94E9F2FC6BDD /* Profile */,
+				615B41E6B8D2735FFDAD41A3 /* Feed */,
+				615B4C96C2AE738FDB87796E /* QAChat */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -74,12 +97,36 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		615B49F7BF60ECF556C0E560 /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				615B486F80D376961E068B9A /* LikesViewController.swift */,
+			);
+			path = Likes;
+			sourceTree = "<group>";
+		};
 		615B4A5DA28AE60940422F66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				615B4B2C80FFB987924E44E5 /* Kolsai.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		615B4BC5A6EE94E9F2FC6BDD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				615B44B9BA52A5F7E000471D /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		615B4C454A67118C3BBFBD02 /* Jobs&Stydies */ = {
+			isa = PBXGroup;
+			children = (
+				615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */,
+			);
+			path = "Jobs&Stydies";
 			sourceTree = "<group>";
 		};
 		615B4C5AC8A21559C019029F /* Supporting Files */ = {
@@ -89,6 +136,14 @@
 				615B43B17CFD42DECC983E3C /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		615B4C96C2AE738FDB87796E /* QAChat */ = {
+			isa = PBXGroup;
+			children = (
+				615B418B5BFA9E901035A958 /* QAChatViewController.swift */,
+			);
+			path = QAChat;
 			sourceTree = "<group>";
 		};
 		615B4D8CF082179566622345 /* Modules */ = {
@@ -175,9 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615B44FA4E8D1544F91D4DFC /* ViewController.swift in Sources */,
+				615B44FA4E8D1544F91D4DFC /* MainTabBarVC.swift in Sources */,
 				615B4BD49FD88041833CDCDA /* AppDelegate.swift in Sources */,
 				615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */,
+				615B4294512A10B3F407FA76 /* FeedViewController.swift in Sources */,
+				615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */,
+				615B4314D6214273167E210B /* LikesViewController.swift in Sources */,
+				615B4934EB020480481A7F2D /* ProfileViewController.swift in Sources */,
+				615B4055D56129D16F69C1C0 /* QAChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +262,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kolsai/Info.plist;
+				INFOPLIST_FILE = "Kolsai/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -337,7 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Kolsai/Info.plist;
+				INFOPLIST_FILE = "Kolsai/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
