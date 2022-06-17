@@ -17,6 +17,8 @@
 		615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */; };
 		615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */; };
 		615B4EF80BB4F85B1D0F4E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B4F1E1C900A14E46A3D87 /* Assets.xcassets */; };
+		ACF1D397285C7D6F004AD0B8 /* LikedNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1D396285C7D6F004AD0B8 /* LikedNewsCell.swift */; };
+		ACF1D399285C80CB004AD0B8 /* JobUniverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1D398285C80CB004AD0B8 /* JobUniverCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		615B4BDDFD917E9F461DA8E7 /* JobsAndStydiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsAndStydiesViewController.swift; sourceTree = "<group>"; };
 		615B4F12A4EC368E9C06F0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		615B4F1E1C900A14E46A3D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF1D396285C7D6F004AD0B8 /* LikedNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedNewsCell.swift; sourceTree = "<group>"; };
+		ACF1D398285C80CB004AD0B8 /* JobUniverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobUniverCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				615B486F80D376961E068B9A /* LikesViewController.swift */,
+				ACF1D396285C7D6F004AD0B8 /* LikedNewsCell.swift */,
+				ACF1D398285C80CB004AD0B8 /* JobUniverCell.swift */,
 			);
 			path = Likes;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 				615B4D72BEF66EC4A097A33F /* SceneDelegate.swift in Sources */,
 				615B4294512A10B3F407FA76 /* FeedViewController.swift in Sources */,
 				615B4CC305CB1C363A7AC597 /* JobsAndStydiesViewController.swift in Sources */,
+				ACF1D397285C7D6F004AD0B8 /* LikedNewsCell.swift in Sources */,
+				ACF1D399285C80CB004AD0B8 /* JobUniverCell.swift in Sources */,
 				615B4314D6214273167E210B /* LikesViewController.swift in Sources */,
 				615B4934EB020480481A7F2D /* ProfileViewController.swift in Sources */,
 				615B4055D56129D16F69C1C0 /* QAChatViewController.swift in Sources */,
@@ -267,6 +275,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Zlmnv.Kolsai;
@@ -402,6 +411,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Zlmnv.Kolsai;
