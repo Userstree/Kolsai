@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 
 class MainTabBarVC: UITabBarController {
@@ -34,6 +35,8 @@ class MainTabBarVC: UITabBarController {
 
     private func makeTabBarViews() {
 
+        tabBar.tintColor = .systemBlue
+        tabBar.backgroundColor = .white
         setViewControllers([feedVC, jobsAndStudiesVC, likesVC, chatVC, profileVC], animated: false)
 
         guard let items = self.tabBar.items else { return }
@@ -42,6 +45,9 @@ class MainTabBarVC: UITabBarController {
             items[i].title = titles[i]
             items[i].image = images[i]
         }
+    }
+
+    private func makeConstraints() {
     }
 
 }
